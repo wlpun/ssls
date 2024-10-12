@@ -1,0 +1,83 @@
+.myBorrow {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 85%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll; /* 垂直滚动条 */
+    height: 640px; /* 定义容器的高度 */
+}
+
+a {
+    text-decoration: none;
+}
+
+.myBorrow .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myBorrow .menu-item {
+    padding: 10px;
+    width: 380px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+
+.myBorrow .menu-item:hover {
+    background-color: #3e8e41;
+}
+.myBorrow .menu-item.active {
+    background-color: #4CAF50;
+}
+
+.myBorrow table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.myBorrow th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.myBorrow td:last-child {
+    text-align: center;
+}
+
+.myBorrow .renew-button,
+.return-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.myBorrow .renew-button:hover,
+.return-button:hover {
+    background-color: #0056b3;
+}
+
+.green {
+    color: #05af05;
+}
+
+.red {
+    color: red;
+}
+.myBorrow form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}

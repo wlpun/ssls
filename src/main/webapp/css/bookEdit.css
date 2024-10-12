@@ -1,0 +1,137 @@
+.editBook {
+    margin: 0 auto;
+    width: 1200px;
+    height: 640px;
+    margin-top: 50px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: scroll; /* 垂直滚动条 */
+}
+
+.editBook h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.editBook hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.editBook table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.editBook th, .editBook td {
+    padding: 10px;
+    text-align: left;
+}
+
+.editBook th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.editBook input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.editBook .addButton {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.editBook .saveButton, .editBook .deleteButton {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* 模态框样式 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#toAddBookButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

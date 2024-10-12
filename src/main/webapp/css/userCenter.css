@@ -1,0 +1,166 @@
+.user {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.user .menu {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.user .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user .menu li {
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #555;
+}
+
+.user .menu li:hover {
+    background-color: #ddd;
+}
+
+.user .content {
+    width: 500px;
+    height: 470px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user .row {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user .label {
+    width: 120px;
+    font-weight: bold;
+}
+
+.user .value {
+    flex: 1;
+}
+
+.user button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user button:hover {
+    background-color: #0056b3;
+}
+
+.user .password-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.user .modal-content {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -50%);
+}
+
+.user .modal-content h3 {
+    margin-top: 0;
+}
+
+.user .modal-content input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user .modal-content button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user .modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.user .balance {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.user .invest-money {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -50%);
+}
+
+.user .invest-money h3 {
+    margin-top: 0;
+}
+
+.user .invest-money input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user .invest-money button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user .invest-money button:hover {
+    background-color: #0056b3;
+}
