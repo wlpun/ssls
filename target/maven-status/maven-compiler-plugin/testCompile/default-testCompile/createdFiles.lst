@@ -1,0 +1,5 @@
+com\zkz\dao\UserDaoTest.class
+com\zkz\dao\BorrowDaoTest.class
+com\zkz\dao\CategoryDaoTest.class
+com\zkz\dao\FineDaoTest.class
+com\zkz\dao\BookDaoTest.class
